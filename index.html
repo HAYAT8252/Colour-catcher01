@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RajvanshiKumar Colour Catcher</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/x-icon" href="logo.bmp" / style="border-radius:
+    60px;">
+  </head>
+  <body>
+    <img src="logo.bmp" alt="" / style="width: 100px;height: 100px;
+    border-radius: 50px;" >
+    <div class="header">
+      <h1>Colour Catcher</h1>
+      <div>Target Colour: <span id="targetColor">#000000</span></div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Time Left: <span id="timer">30</span> sec</div>
+      <button id="themeToggle">Toggle Theme</button>
+    </div>
+
+    <div class="grid" id="colorGrid"></div>
+
+    <!--I should hide this div because when game will be over then it will show -->
+    <div id="gameOver" class="game-over hidden">
+      <h2> Time's up!</h2>
+      <p>Your Final Score: <span id="finalScore">0</span></p>
+      <button onclick="startGame()">Play Again</button>
+    </div>
+
+    <div class="footer">
+    
+        <h1>Developer by Rajvanshi Kumar</h1></span
+      >
+    </div>
+      
+    <script src="web.js"></script>
+  </body>
+</html>
