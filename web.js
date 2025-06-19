@@ -69,7 +69,6 @@ function gameOver() {
 
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark');
-  document.body.classList.toggle('light');
 });
 
 // Start with light theme
